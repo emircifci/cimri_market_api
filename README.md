@@ -2,6 +2,8 @@
 
 Cimri.com market ürünlerini programatik olarak aramak, fiyatları karşılaştırmak ve en uygun fiyatları bulmak için geliştirilmiş bir API.
 
+![Screenshot](ekran-resmi.png "Ekran Resmi")
+
 ## Video Anlatım
 
 API'nin kurulumu ve kullanımı ile ilgili detaylı video anlatımına aşağıdaki linkten ulaşabilirsiniz:
@@ -69,5 +71,3 @@ GET /logo.php?id=12345
    - Detaylı loglama
    - Otomatik retry
    - Timeout kontrolü
-
-![Screenshot](ekran-resmi.png "Ekran Resmi")
