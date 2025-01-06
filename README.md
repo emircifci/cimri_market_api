@@ -69,3 +69,5 @@ GET /logo.php?id=12345
    - Detaylı loglama
    - Otomatik retry
    - Timeout kontrolü
+
+![Screenshot](ekran-resmi.png "Ekran Resmi")
