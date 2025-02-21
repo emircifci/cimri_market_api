@@ -16,12 +16,12 @@ class CimriScraper {
     ];
     private $totalPages = 1;
     private $cacheDir;
-    private $cacheDuration = 3600; // 1 saat
+    private $cacheDuration = 7200; // 1 saat
     private $maxRetries = 5; // Maksimum deneme sayısı
     private $retryDelay = 2; // Denemeler arası bekleme süresi (saniye)
-    private $maxCacheFiles = 500; // Maksimum cache dosya sayısı
-    private $minDelay = 1000000; // 1 saniye (mikrosaniye)
-    private $maxDelay = 3000000; // 3 saniye (mikrosaniye)
+    private $maxCacheFiles = 1000; // Maksimum cache dosya sayısı
+    private $minDelay = 2000000; // 1 saniye (mikrosaniye)
+    private $maxDelay = 5000000; // 3 saniye (mikrosaniye)
 
     private $turkishChars = [
         'ş' => 's', 'Ş' => 'S',
