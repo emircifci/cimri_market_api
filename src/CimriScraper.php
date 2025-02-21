@@ -17,7 +17,7 @@ class CimriScraper {
     private $totalPages = 1;
     private $cacheDir;
     private $cacheDuration = 3600; // 1 saat
-    private $maxRetries = 3; // Maksimum deneme sayısı
+    private $maxRetries = 5; // Maksimum deneme sayısı
     private $retryDelay = 2; // Denemeler arası bekleme süresi (saniye)
     private $maxCacheFiles = 500; // Maksimum cache dosya sayısı
     private $minDelay = 1000000; // 1 saniye (mikrosaniye)
